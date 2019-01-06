@@ -32,6 +32,9 @@ if __name__ == "__main__":
         user_seed = int(sys.argv[1])
 
     n, e, d, p, q = rsa_key_gen(user_seed)
+    print("n:", n)
+    print("p:", p)
+    print("q:", q)
     print("===============ENCRYPT KEY================")
     print("e:", e)
     print("===============DECRYPT KEY================")
